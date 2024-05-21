@@ -1,0 +1,105 @@
+body{
+    background-color: #ECCA9C;
+}
+#inicio{
+    box-shadow: 0 0 20px rgba(253, 12, 102, 0.5) !important;
+    background-color: black !important;
+
+}
+nav ul {
+    gap: 2rem;
+}
+nav ul li a {
+    color: white !important;
+    transition: 0.7s;
+}
+nav ul li a:hover {
+    color: #ff8906 !important;
+    border-bottom: 1px solid #ff8906;
+}
+
+.muestras {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.card{
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+
+.empresa {
+    background-image: url("../../imgs/fiestadec.jpg") !important; /* Ruta de tu imagen de fondo */
+        background-size: cover ; /* Ajusta la imagen al tamaño del contenedor */
+        background-repeat: no-repeat ; /* Evita que la imagen se repita */
+        background-size: cover ;
+        background-attachment: fixed ;
+        text-align: center;
+        margin-top: 1rem;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.empresa h2{
+    place-items: center;
+    color: #fff;
+}
+
+#des{
+    width: 80%;
+    border-radius:8px;
+    padding: 16px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+#iniciogagale{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.gale {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    gap: 1rem;
+    margin: auto;
+}
+
+.gale img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 20px;
+    background-position: center;
+
+}
+.carousel-item img {
+    left: 40rem ;
+    width: 60rem ;
+    margin-bottom: 2rem;
+}
+
+.gale img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#pca{
+    left: 4rem;
+    width: 4rem;
+}
+
+#cartas{
+    display: flex;
+}
+
+#botones{
+    background-color: #ff8906 !important;
+    color: #fffffe !important;
+}
